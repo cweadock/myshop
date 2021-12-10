@@ -178,7 +178,19 @@ p span {
 }
 
 .card-img-top-shop:hover {
-  content: url("../assets/imageinprogress2.png");
+  content: url("../assets/imageinprogress.png");
+}
+
+.card-img-top-michtop:hover {
+  content: url("../assets/michtop1.png");
+}
+
+.card-img-top-hoodie:hover {
+  content: url("../assets/hoodie1.png");
+}
+
+.card-img-top-tshirt:hover {
+  content: url("../assets/tshirt1.png");
 }
 
 .fade-in-image {
