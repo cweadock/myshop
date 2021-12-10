@@ -68,7 +68,7 @@
     cursor: pointer;
   }
   .contact-form .btnContact:hover{
-    background: #d0ff16;
+    background: #FE285B;
     color: black;
   }
 
@@ -146,15 +146,6 @@
 
 }
 
-/* .background-graphic {
-  position: absolute;
-} */
-
-/* .container {
-  position: relative;
-  display: inline-block;
-} */
-
 #my-container{
   height: 350px;
   background-image: url("../assets/background.jpg");
@@ -171,4 +162,53 @@
 
 p span {
   background-color: white;
+}
+
+/* tablet media query */
+@media (min-width: 600px) {
+  .flip-card{
+    display: flex row;
+    align-content: center;
+    padding: 0;
+    margin-left: 50px;
+  }
+  .fade-in-image {
+    animation: none;
+  }
+}
+
+.card-img-top-shop:hover {
+  content: url("../assets/imageinprogress2.png");
+}
+
+.fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
